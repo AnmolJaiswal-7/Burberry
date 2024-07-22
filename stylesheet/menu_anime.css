@@ -1,0 +1,144 @@
+.menu_anime{
+    display: none;
+    width: 100%;
+    height: 100svh;
+    position: fixed;
+    z-index: 10;
+    background-color: var(--cream-color-);
+}
+
+.desiging_menu{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.center_menubar{
+    width: 40%;
+    height: 40%;
+    background: var(--cream-color-);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 10;
+}
+
+.cross_menu{
+    position: absolute;
+    height: 2.1vw;
+    width: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--mat-color-);
+    right: 6%;
+    top: 5.5%;
+    z-index: 11;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.cross_menu i {
+    font-size: 2vw;
+    color: #ffff;
+}
+
+
+.menubar_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 0.5rem;
+}
+
+.menubar_content a{
+    text-decoration: none;
+}
+
+.menubar_content h1{
+    font-size: 2.2vw;
+    font-family: var(--burberry-font-);
+    color: var(--mat-color-);
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.menu_design{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 14vw;
+    
+}
+
+.design_left_pattern, .design_right_pattern{
+    height: 100%;
+    width: 22%;
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff8f;
+    
+}
+
+.desing_line{
+    background: var(--mat-color-);
+    height: 100%;
+    width: 17%;
+}
+
+.middle_line_pattern{
+    height: 100%;
+    width: 14%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.middle_desing_line{
+    height: 100%;
+    width: 17%;
+    background: var(--dark_meroon-color-);
+}
+
+.menu_horizontol_design{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+}
+.first_line_desing{
+    width: 100%;
+    height: 17%;
+    top: 13.05% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    z-index: 9;
+}
+
+.design_upper_line{
+    width: 100%;
+    height: 20%;
+    background: var(--dark_meroon-color-);
+}
+
+.last_line_desing{
+    width: 100%;
+    height: 19%;
+    position: relative;
+    top: 53%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.design_bottom_line{
+    width: 100%;
+    height: 30%;
+    background: var(--mat-color-);
+}

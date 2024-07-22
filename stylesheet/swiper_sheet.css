@@ -1,0 +1,172 @@
+
+#men_swiper{
+    display: none;   
+}
+
+#women_swiper{
+    display: none;
+}
+
+#children_swiper{
+    display: none;
+}
+
+#accessories_swiper{
+    display: none;
+}
+
+.catalog_swiper{
+    background: var(--mat-color-);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.swiper{
+    width: 98%;
+    height: 450px;
+    position: relative;
+    top: 5%;
+}
+
+.swiper-slide{
+    position: relative;
+    box-shadow: 0 15px 50px rgba(0 , 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+
+
+.men_slide:nth-child(1n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/men/men1.jfif) no-repeat 50% 50% / cover;
+}
+
+.men_slide:nth-child(2n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/men/men_shirt.jpg) no-repeat 50% 50% / cover;
+}
+
+.men_slide:nth-child(3n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/men/men5.jfif) no-repeat 50% 50% / cover;
+}
+
+.men_slide:nth-child(4n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/men/men_trench_coat.jpg) no-repeat 50% 50% / cover;
+}
+
+.men_slide:nth-child(5n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/men/men_polo.jpg) no-repeat 50% 50% / cover;
+}
+
+.men_slide:nth-child(6n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/men/men6.jfif) no-repeat 50% 50% / cover;
+}
+
+.men_slide:nth-child(7n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/men/men7.jfif) no-repeat 50% 50% / cover;
+}
+
+.men_slide:nth-child(8n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/men/men8.jfif) no-repeat 50% 50% / cover;
+}
+
+/* ===women=== */
+
+.women_slide:nth-child(1n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/women/w1.jfif) no-repeat 50% 50% / cover;
+}
+
+.women_slide:nth-child(2n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/women/w2.jfif) no-repeat 50% 50% / cover;
+}
+
+.women_slide:nth-child(3n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/women/w3.jfif) no-repeat 50% 50% / cover;
+}
+
+.women_slide:nth-child(4n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/women/w4.jfif) no-repeat 50% 50% / cover;
+}
+
+.women_slide:nth-child(5n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/women/w5.jpg) no-repeat 50% 50% / cover;
+}
+
+.women_slide:nth-child(6n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/women/w6.jfif) no-repeat 50% 50% / cover;
+}
+
+.women_slide:nth-child(7n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/women/w7.jfif) no-repeat 50% 50% / cover;
+}
+
+.women_slide:nth-child(8n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/women/w8.jfif) no-repeat 50% 50% / cover;
+}
+
+/* == Child == */
+
+.child_slide:nth-child(1n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/children/ch1.jpg) no-repeat 50% 50% / cover;
+}
+
+.child_slide:nth-child(2n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/children/ch2.jpg) no-repeat 50% 50% / cover;
+}
+
+.child_slide:nth-child(3n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/children/ch3.jfif) no-repeat 50% 50% / cover;
+}
+
+.child_slide:nth-child(4n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/children/ch4.jfif) no-repeat 50% 50% / cover;
+}
+
+.child_slide:nth-child(5n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/children/ch5.jfif) no-repeat 50% 50% / cover;
+}
+
+.child_slide:nth-child(6n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/children/ch6.jfif) no-repeat 50% 50% / cover;
+}
+
+.child_slide:nth-child(7n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/children/ch7.jfif) no-repeat 50% 50% / cover;
+}
+
+.child_slide:nth-child(8n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/children/ch8.jfif) no-repeat 50% 50% / cover;
+}
+
+/* === access === */
+
+.access_slide:nth-child(1n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/accessories/acc1.jfif) no-repeat 50% 50% / cover;
+}
+
+.access_slide:nth-child(2n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/accessories/acc2.jfif) no-repeat 50% 50% / cover;
+}
+
+.access_slide:nth-child(3n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/accessories/acc3.jfif) no-repeat 50% 50% / cover;
+}
+
+.access_slide:nth-child(4n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/accessories/acc4.jpg) no-repeat 50% 50% / cover;
+}
+
+.access_slide:nth-child(5n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/accessories/acc5.jfif) no-repeat 50% 50% / cover;
+}
+
+.access_slide:nth-child(6n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/accessories/acc6.jfif) no-repeat 50% 50% / cover;
+}
+
+.access_slide:nth-child(7n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/accessories/acc7.jfif) no-repeat 50% 50% / cover;
+}
+
+.access_slide:nth-child(8n){
+    background: linear-gradient(to top, #161833, #203a4300, #2c536400), url(/images/hover_img/accessories/acc8.jfif) no-repeat 50% 50% / cover;
+}

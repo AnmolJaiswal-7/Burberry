@@ -1,0 +1,29 @@
+.loader{
+    width: 100%;
+    height: 100svh;
+    position: fixed;
+    background: var(--mat-color-);
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: none;
+    overflow-x: hidden;
+}
+
+.burberry_head{
+    font-family: var(--burberry-font-);
+    color: var(--cream-color-);
+    font-size: 9vw;
+    font-weight: 800;
+    display: flex;
+}
+
+.heritage{
+    font-family: var(--burberry-font-);
+    color: var(--cream-color-);
+    font-size: 3vw;
+    font-weight: 400;
+    display: flex;
+}

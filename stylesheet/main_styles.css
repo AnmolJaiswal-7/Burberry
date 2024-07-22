@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Maname&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Maname&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    overflow-x: hidden;
+    background-color: var(--cream-color-) !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px; 
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--mat-color-);
+    height: 115px;
+    
+}
+
+::-webkit-scrollbar-track {
+      background-color: var(--dark_cream-color-); 
+  }
+  
+
+
+#home{
+    width: 100%;
+    height: 100svh;
+    background-color: var(--cream-color-);
+    position: relative;
+}
+
+
+
+.promote{
+    height: 2.5rem;
+    background-color: var(--mat-color-);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 9;
+}
+.promote h2{
+    font-family: var(--luxury-font-);
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    font-size: 1.7vw;
+    color: var(--white-color-);
+    transform: translateY(25%);
+}
+
+.logo h1{
+    font-family: var(--burberry-font-);
+    font-size: 2vw;
+    cursor: pointer;
+    color: var(--mat-color-);
+    
+}
+
+.nav_bar{
+    display: flex;
+    padding: 1.7rem 0;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 2vw 6vw 1vw;
+}
+.list_menu, .nav_list{
+    display: flex;
+    list-style: none;
+}
+
+.nav_links{
+    text-decoration: none !important; 
+    margin: 0 1rem;
+    color: var(--mat-color-) !important;
+    font-size: 1.5vw;
+    font-weight: 600;
+    font-family: var(--burberry-font-);
+}
+
+.menu_bar {
+    height: 2.1vw;
+    width: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin-left: 26px;
+}
+
+.line{
+    width: 90%;
+    height: 3px;
+    background: var(--mat-color-);
+}
+
+.menu_line1,.menu_line3{
+    width: 75%;
+}
+
+.home_content{
+    padding: 0 6vw;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    gap: 10vw;
+}
+.left_home_content{
+    width: 30vw;
+    position: relative;
+    display: flex;
+    height: 100%;
+    
+    left: 5%;
+}
+.right_home_content{
+    width: 50vw;
+    position: relative;
+}
+
+/* right home container code  */
+
+.img_container{
+    position: absolute;
+    right: 0;
+    width: 77.5%;
+    border-top: 0.1px solid var(--mat-color-);
+    height: 100%;
+    border-top-left-radius: 90%;
+}
+
+.img_container img{
+    border-top-left-radius: 90%;
+    object-fit: cover;    
+    object-position: top;
+    width: 100%;
+    height: 100%;
+}
+
+.catalog{
+    position: absolute;
+    width: 64%;
+    right: 29%;
+    height: 100%;
+    border-top-left-radius: 86%;
+    height: 500px;
+}
+
+.category_container{
+    position: relative;
+    height: 100%;
+}
+
+.category{
+    width: 6.2vw;
+    height: 6.2vw;
+    border: 1px solid var(--white-color-);
+    border-radius: 50%;
+    background-color: var(--mat-color-);
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+}
+
+
+.category:hover h2 {
+    color: var(--mat-color-);
+}
+
+.category h2{
+    font-family: var(--burberry-font-);
+    font-size: 1vw;
+    color: var(--white-color-); 
+    transition: all 0.2s;
+}
+
+.men{
+    bottom: 67.5%;
+    left: 32%;
+}
+.women{
+    bottom: 49%;
+    left: 17%;
+}
+.children{
+    bottom: 29%;
+    left: 7%;
+}
+.accessories{
+    bottom: 7.5%;
+    left: 2%;
+}
+
+.accessories h2 {
+    font-size: 0.9vw;
+}
+
+
+
+/* left home container code  */
+
+.social{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 5%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -6vw;
+}
+
+.social_icon{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.social_icon i{
+    font-size: 2.7vw;
+    cursor: pointer;
+    color: var(--mat-color-);
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.icon_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_icon i:hover{
+    font-size: 4vw;
+}
+
+.line1{
+    width: 6px;
+    height: 45%;
+    background-color: var(--mat-color-);
+    
+}
+.line2{
+    width: 6px;
+    height: 45%;
+    background-color: var(--mat-color-);
+}
+
+.burberry_img{
+    position: absolute;
+    left: 50%;
+    padding-top: 8rem;
+    transform: translateX(-50%);
+}
+
+.burberry_img img{
+    width: 22vw;
+}
+
+.burberry_text{
+    position: absolute;
+    top: 26vw;
+    padding: 0 4.5vw;
+    text-align: center;
+}
+.burberry_text h1{
+    font-family: var(--luxury-font-);
+    font-size: 1.8vw;
+}
+
+/* ======= Hover img catalog effect======== */
+
+.hover_img_efffect{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: 1px solid var(--mat-color-);
+}

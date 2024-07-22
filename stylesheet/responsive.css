@@ -1,0 +1,258 @@
+
+@media screen and (max-width: 1100px) {
+    .logo h1{
+        font-size: 3vw;
+    }
+    .promote h2{
+        font-size: 2vw;
+    }
+    .nav_links{
+        font-size: 2vw;
+    }
+
+    .menu_bar{
+        width: 3vw;
+    }
+
+    .img_container{
+        display: none;
+    }
+    .right_home_content{
+        width: 12vw;
+    }
+    .left_home_content{
+        width: 88vw;
+    }
+    
+    .social_icon i{
+        font-size: 3.1vw;
+    }
+    .category h2{
+        font-size: 1.4vw;
+    }
+    .catalog{
+        right: 0;
+        border-top-left-radius:0;
+        width: 100%;
+    }
+    .category{
+        left: 0%;
+        /* bottom: 5%; */
+        width: 9vw;
+        height: 9vw;
+    }
+    .men{
+        top: 3%;
+    }
+    .women{
+        top: 28%;
+    }
+    .children{
+        top: 53%;
+    }
+    .accessories{
+        top: 78%;
+    }
+    .menubar_content h1{
+        font-size: 2.6vw;
+    }
+}
+
+@media screen and (max-width: 930px){
+    .menubar_content h1{
+        font-size: 2.9vw;
+    }
+    .cross_menu{
+        width: 3.1vw;
+        height: 2.6vw;
+    }
+    .cross_menu i{
+        font-size: 2.1vw;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .logo h1{
+        font-size: 3.5vw;
+    }
+    .promote h2{
+        font-size: 2.5vw;
+    }
+    .nav_links{
+        font-size: 2.5vw;
+    }
+
+    .menu_bar{
+        width: 4vw;
+        height: 4vw;
+    }
+    .social_icon i{
+        font-size: 4.5vw;
+    }
+    .category{
+        width: 11vw;
+        height: 11vw;
+    }
+    .category h2{
+        font-size: 1.8vw;
+    }
+    .showcase_text h1:nth-child(1){
+        font-size: 4.5vw;
+    }
+    .showcase_text h1:nth-child(2){
+        font-size: 2.8vw;
+    }
+    .footer-social-icon i{
+        font-size: 3.5vw;
+    }
+    .showcase:nth-child(3){
+        display: none;
+    }
+    .first_middle_showcase_img{
+        width: 100% !important;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 10px;
+    }
+    .menubar_content h1{
+        font-size: 3.3vw;
+    }
+    .cross_menu{
+        width: 3.9vw;
+        height: 3.6vw;
+    }
+    .cross_menu i{
+        font-size: 2.5vw;
+    }
+    .last_line_desing{
+        height: 15%;
+    }
+    .design_bottom_line{
+        height: 23%;
+    }
+    .desing_line{
+        width: 20%;
+    }
+    .middle_desing_line{
+        width: 25%;
+    }
+    .footer-widget ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .logo h1{
+        font-size: 4.5vw;
+    }
+    .promote h2{
+        font-size: 3.5vw;
+    }
+    .nav_links{
+        font-size: 3.5vw;
+    }
+
+    .menu_bar{
+        width: 6vw;
+        height: 5vw;
+    }
+    .social_icon i{
+        font-size: 5.5vw;
+    }
+    .story_2{
+        display: none;
+    }
+    .story{
+        width: 65%;
+    }
+    .showcase:nth-child(1){
+        display: none;
+
+    }   
+    .category{
+        left: -9vw;
+        width: 15vw;
+        height: 15vw;
+    }
+    .category h2{
+        font-size: 2.5vw;
+    }
+    .right_home_content{
+        width: 0vw;
+    }
+    .showcase_text h1:nth-child(1){
+        font-size: 6.5vw;
+    }
+    .showcase_text h1:nth-child(2){
+        font-size: 4.8vw;
+    }
+    .menubar_content h1{
+        font-size: 4.3vw;
+    }
+    .cross_menu{
+        width: 4.9vw;
+        height: 4.6vw;
+    }
+    .cross_menu i{
+        font-size: 3.5vw;
+    }
+    .video_burberry_content{
+        display: none;
+    }
+    .middle_text_showcase{
+        display: none;
+    }
+    .story{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 490px){
+    .center_menubar{
+        width: 100%;
+        height: 100%;
+    }
+    .menubar_content h1{
+        font-size: 8.3vw;
+    }
+    .category{
+        left: -14vw ;
+        top: 86% ;
+
+    }
+    .men{
+        left: -84vw;
+    }
+    .women{
+        left: -61.5vw;
+    }
+    .children{
+        left: -37.5vw;
+    }
+
+
+}
+@media screen and (min-width: 330px) and (max-width: 450px){
+    .logo h1{
+        font-size: 6.5vw;
+    }
+    .promote h2{
+        font-size: 3.8vw;
+    }
+    .nav_links{
+        font-size: 4.5vw;
+    }
+    .menu_bar{
+        width: 8vw;
+        height: 7vw;
+    }
+    .category{
+        height: 20vw;
+        width: 20vw;
+    }
+    .category h2{
+        font-size: 3.6vw;
+        font-weight: 500;
+    }
+}
